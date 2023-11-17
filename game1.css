@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* The gradient is copied from a website.*/
+
+    font-family: Poppins;
+}
+
+.header{
+    text-align: center;
+}
+
+.button{
+    width: 200px;
+    padding: 20px;
+    margin: 2px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Poppins;
+}
+
+
+.container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

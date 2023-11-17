@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Poppins;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,149,180,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.header{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container-2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    width: 200px;
+    padding: 20px;
+    margin: 2px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.guess{
+    border-radius: 9px;
+    border: 2px solid black;
+    width: 200px;
+    font-size: 25px;
+}
